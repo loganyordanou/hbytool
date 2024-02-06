@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a; /*dark grey*/
+    color: #fff; /*white*/
+    padding: 20px; /*padding around body content*/
+    line-height: 1.5; /*spacing between lines*/
+}
+
+.container {
+    max-width: 800px;
+    margin: auto; /*centers the container*/
+    text-align: center; /*centers the title*/
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #8a2be2; /*bright purple*/
+}
+
+section {
+    text-align: left; /*aligns section text to the left*/
+}
+
+.verse p {
+    font-size: 16px; /*smaller font for verses*/
+    color: #9e9e9e; /*grey*/
+}
+
+.refrain p {
+    font-size: 18px; /*slightly larger font for refrains*/
+    color: #bdbdbd; /*lighter grey*/
+    font-style: italic; /*italicize to differentiate*/
+}
+
+.chorus p, .pre-chorus p, .post-chorus p {
+    font-size: 20px; /*larger font for emphasis*/
+    font-weight: 700; /*bold*/
+    color: #e0e0e0; /*light grey*/
+}
+
+.pre-chorus p {
+    background-color: #424242; /*darker bg*/
+    padding: 5px 0; /*padding for separation*/
+    font-style: italic; /*italic*/
+}
+
+.post-chorus p {
+    border-bottom: 2px dashed #676767; /*dashed line for visual break*/
+}
+
+.chorus p {
+    border-left: 4px solid #673ab7; /*solid line to highlight choruses*/
+    padding-left: 10px; /*spacing from the border to the text*/
+}
+
+.image-section img {
+    width: 100%;
+    height: auto; /*only set one*/
+}
